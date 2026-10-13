@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="660" viewBox="0 0 1400 660">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#315D7C"/></marker></defs>
+<rect width="1400" height="660" fill="#FFFFFF"/>
+<g font-family="Arial, sans-serif" fill="#132A3B">
+<text x="50" y="50" font-size="30" font-weight="700">Architecture logique du laboratoire SOC</text>
+<text x="50" y="84" font-size="21" fill="#536574">Un endpoint Linux supervisé et une plateforme Wazuh centralisée</text>
+<rect x="45" y="135" width="330" height="420" rx="12" fill="#F2F6FA" stroke="#BACBD7" stroke-width="2"/>
+<text x="70" y="177" font-size="26" font-weight="700">Machine Kali Linux</text>
+<text x="70" y="213" font-size="21">Endpoint supervisé</text>
+<rect x="70" y="250" width="280" height="96" rx="8" fill="#FFFFFF" stroke="#BACBD7"/>
+<text x="92" y="286" font-size="23" font-weight="700">OpenSSH et PAM</text>
+<text x="92" y="319" font-size="20">Journaux d’authentification</text>
+<path d="M210 346 L210 389" fill="none" stroke="#315D7C" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="70" y="395" width="280" height="105" rx="8" fill="#FFFFFF" stroke="#BACBD7"/>
+<text x="92" y="435" font-size="23" font-weight="700">Agent Wazuh</text>
+<text x="92" y="470" font-size="20">Collecte et transmission</text>
+<rect x="595" y="135" width="760" height="420" rx="12" fill="#F2F6FA" stroke="#BACBD7" stroke-width="2"/>
+<text x="620" y="177" font-size="26" font-weight="700">Nœud central Ubuntu</text>
+<text x="620" y="213" font-size="21">Installation all-in-one</text>
+<rect x="625" y="260" width="210" height="130" rx="8" fill="#FFFFFF" stroke="#BACBD7"/>
+<text x="650" y="303" font-size="23" font-weight="700">Wazuh Server</text>
+<text x="650" y="336" font-size="20">Décodage et règles</text>
+<text x="650" y="365" font-size="20">Génération d’alertes</text>
+<rect x="870" y="260" width="195" height="130" rx="8" fill="#FFFFFF" stroke="#BACBD7"/>
+<text x="887" y="303" font-size="23" font-weight="700">Indexer</text>
+<text x="887" y="338" font-size="20">Stockage</text>
+<text x="887" y="366" font-size="20">et recherche</text>
+<rect x="1100" y="260" width="225" height="130" rx="8" fill="#FFFFFF" stroke="#BACBD7"/>
+<text x="1118" y="303" font-size="23" font-weight="700">Dashboard</text>
+<text x="1118" y="338" font-size="20">Consultation</text>
+<text x="1118" y="366" font-size="20">et investigation</text>
+<path d="M835 325 L867 325" stroke="#315D7C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1065 325 L1097 325" stroke="#315D7C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M350 450 L485 450 L485 325 L622 325" stroke="#315D7C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="407" y="284" font-size="21" font-weight="700">Événements</text>
+<text x="422" y="316" font-size="20">1514/TCP</text>
+<text x="640" y="456" font-size="22">Analyse par l’étudiant depuis l’interface web</text>
+<text x="640" y="492" font-size="20" fill="#536574">Statut de l’agent, règles, horodatages et compteurs</text>
+<text x="50" y="603" font-size="20" fill="#536574">Schéma fonctionnel du périmètre documenté · Wazuh 4.7.5 dans les captures du stage</text>
+<text x="50" y="634" font-size="20" fill="#536574">Le réseau NAT est décrit dans le rapport ; ce dessin ne représente pas un audit des règles réseau.</text>
+</g></svg>

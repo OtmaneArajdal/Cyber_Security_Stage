@@ -1,0 +1,10 @@
+scope,indicator,observed_value,description,screenshot,interpretation
+enrolement,agent-actif,1,agent actif,agent-actif.jpeg,"Connexion de l’agent, pas taux de détection"
+local,5301,5,User missed the password to change UID,alertes-pam.jpeg,Échec de changement d’identité
+local,5503,5,PAM: User login failed,alertes-pam.jpeg,Échec PAM
+local,5557,5,unix_chkpwd: Password check failed,alertes-pam.jpeg,Échec de vérification
+ssh,5710,5,Attempt to login using a non-existent user,alertes-ssh.jpeg,"Événement individuel, corrélation non démontrée"
+ssh,hydra,0,valid password found,test-ssh-local.jpeg,Aucun mot de passe trouvé dans l’essai visible
+aggregate,total,83,événements,vue-authentifications.jpeg,Fenêtre Last 24 hours et filtre Manager
+aggregate,authentication_failure,52,échecs d’authentification,vue-authentifications.jpeg,Pas attribués à une seule exécution
+aggregate,authentication_success,1,succès d’authentification,vue-authentifications.jpeg,Pas de preuve de succès du test offensif

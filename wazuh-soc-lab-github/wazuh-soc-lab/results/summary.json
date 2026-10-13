@@ -1,0 +1,35 @@
+{
+  "author": "Otmane Arajdal",
+  "project": "Supervision SOC avec Wazuh",
+  "context": "Stage technique de quatrième année",
+  "year": 2026,
+  "environment": {
+    "central_node": "Ubuntu 22.04 LTS, Server/Indexer/Dashboard all-in-one",
+    "endpoint": "Kali Linux",
+    "wazuh_version_observed": "4.7.5",
+    "agent_package_observed": "4.7.5-1",
+    "hydra_version_observed": "9.6"
+  },
+  "observations": {
+    "active_agents": 1,
+    "local_rule_ids": [
+      5301,
+      5503,
+      5557
+    ],
+    "local_rule_level": 5,
+    "ssh_rule_id": 5710,
+    "ssh_rule_level": 5,
+    "hydra_valid_passwords_found": 0,
+    "aggregate_window": "Last 24 hours",
+    "aggregate_total": 83,
+    "aggregate_authentication_failures": 52,
+    "aggregate_authentication_successes": 1
+  },
+  "limits": [
+    "No demonstrated successful privilege escalation or SSH compromise",
+    "No proven mapping of every event to a given Hydra execution",
+    "No benchmark of latency or detection accuracy",
+    "No demonstrated automated response, NIDS, FIM or full vulnerability validation"
+  ]
+}
